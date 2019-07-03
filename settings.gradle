@@ -1,2 +1,4 @@
 rootProject.name = 'andycen-base'
 
+include "andycen-core"
+include "andycen-web"

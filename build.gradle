@@ -1,31 +1,72 @@
 buildscript {
     repositories {
-        mavenCentral()
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        maven { url "http://maven.aliyun.com/nexus/content/repositories/jcenter" }
+        maven { url "http://mvnrepository.com/" }
     }
     dependencies {
-        classpath 'org.springframework.boot:spring-boot-gradle-plugin:2.1.3.RELEASE'
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.5.11.RELEASE"
     }
 }
 
-plugins {
-    id 'java'
-    id 'war'
+subprojects {
+    group = "com.andycen.base"
+    version = "0.1.0"
+
+    apply plugin: "java"
+    apply plugin: "org.springframework.boot"
+
+    //设置jdk的版本
+    sourceCompatibility = 1.8
+
+    ext {
+
+    }
+
+    ext.prof = project.hasProperty("profile") ? profile : "dev"
+
+    repositories {
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+        maven { url "http://maven.aliyun.com/nexus/content/repositories/jcenter" }
+        maven { url "http://mvnrepository.com/" }
+    }
+
+    dependencies {
+        compile "org.springframework.boot:spring-boot-starter-test"
+        compile "org.springframework.boot:spring-boot-starter-web"
+        compile "org.springframework.boot:spring-boot-starter-tomcat"
+        compile "mysql:mysql-connector-java:5.1.47"
+        compile "org.projectlombok:lombok"
+        compile "org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.1"
+        compile "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final"
+        compile "tk.mybatis:mapper-spring-boot-starter:2.0.4"
+    }
+
+    sourceSets {
+        main {
+            resources {
+                srcDirs = ["src/main/resources", "src/main/resources/config/${prof}"]
+                excludes = ["config"]
+            }
+        }
+    }
+
 }
 
-group 'com.andycen.base'
-version '0.1.0'
-
-//设置jdk的版本
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
+project("andycen-core") {
+    jar {
+        archiveName = "andycen-core.jar"
+    }
 }
 
-dependencies {
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.springframework.boot:spring-boot-starter-test:2.1.3.RELEASE'
-    compile 'org.springframework.boot:spring-boot-starter-web:2.1.3.RELEASE'
-    compile 'org.springframework.boot:spring-boot-autoconfigure:2.1.3.RELEASE'
-    compile 'mysql:mysql-connector-java:5.1.47'
+project("andycen-web") {
+    apply plugin: "org.springframework.boot"
+    apply plugin: "war"
+    war {
+        archiveName = "andycen-web.war"
+    }
+    dependencies {
+        compile project(":andycen-core")
+        providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+    }
 }
