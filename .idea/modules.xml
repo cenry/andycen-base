@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/andycen-base.iml" filepath="$PROJECT_DIR$/andycen-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/andycen-core/andycen-core.iml" filepath="$PROJECT_DIR$/.idea/modules/andycen-core/andycen-core.iml" group="andycen-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/andycen-core/andycen-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/andycen-core/andycen-core_main.iml" group="andycen-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/andycen-core/andycen-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/andycen-core/andycen-core_test.iml" group="andycen-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/andycen-web/andycen-web.iml" filepath="$PROJECT_DIR$/.idea/modules/andycen-web/andycen-web.iml" group="andycen-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/andycen-web/andycen-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/andycen-web/andycen-web_main.iml" group="andycen-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/andycen-web/andycen-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/andycen-web/andycen-web_test.iml" group="andycen-web" />
+    </modules>
+  </component>
+</project>
