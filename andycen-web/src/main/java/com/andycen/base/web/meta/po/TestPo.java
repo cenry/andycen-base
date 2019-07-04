@@ -1,4 +1,4 @@
-package com.andycen.base.core.meta.po;
+package com.andycen.base.web.meta.po;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
