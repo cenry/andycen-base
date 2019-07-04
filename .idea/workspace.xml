@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d1e9b73-48fa-448e-9464-24fecdc15efd" name="Default Changelist" comment="" />
+    <list default="true" id="2d1e9b73-48fa-448e-9464-24fecdc15efd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/andycen-core/src/main/java/com/andycen/base/core/dao/mapper/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/andycen-core/src/main/java/com/andycen/base/core/meta/po/TestPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/andycen-web/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/andycen-web/src/main/resources/config/dev/application-mysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb2c367d-99f0-40af-bd99-2d9406ec8074.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/andycen-web/src/main/java/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/andycen/base/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/andycen/base/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/config/dev/application-mysql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/config/dev/application-redis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andycen/base/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/andycen-web/src/main/java/com/andycen/base/web/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/dev/application-mysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/andycen-web/src/main/resources/config/test/application-mysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/dev/application-redis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/andycen-web/src/main/resources/config/dev/application-redis.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/andycen-core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/andycen-core/build/" />
+    <ignored path="$PROJECT_DIR$/andycen-web/.gradle/" />
+    <ignored path="$PROJECT_DIR$/andycen-web/build/" />
+    <ignored path="$PROJECT_DIR$/andycen-web/out/" />
+    <ignored path="$PROJECT_DIR$/andycen-core/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +61,17 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="andycen@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="andycen@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="andycen@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="andycen: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -39,6 +84,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/andycen-web">
           <activation />
         </task>
         <projects_view>
@@ -55,67 +103,22 @@
       </state>
     </system>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-426442219">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="1" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="YAML" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="3" />
-          <entry key="Scratch" value="2" />
-          <entry key="YAML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1290379445">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/dev/application-mysql.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="462">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andycen/base/Application.java">
+        <entry file="file://$PROJECT_DIR$/andycen-core/src/main/java/com/andycen/base/core/dao/mapper/TestMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="189">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,14 +127,65 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andycen/base/controller/TestController.java">
+        <entry file="file://$PROJECT_DIR$/andycen-web/src/main/resources/config/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="42">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/andycen-web/src/main/java/com/andycen/base/web/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/andycen-web/src/main/resources/config/dev/application-mysql.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/andycen-web/src/main/java/com/andycen/base/web/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/tk.mybatis/mapper-base/1.0.5/9fca5df4f0a6f670becdb3ffbec51b8b78c2d08/mapper-base-1.0.5-sources.jar!/tk/mybatis/mapper/common/base/select/SelectByPrimaryKeyMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -145,420 +199,60 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>p</find>
+      <find>spring-boot-starter-parent</find>
+      <find>'</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="myGradleHomes">
-      <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\ruyi\.gradle\wrapper\dists\gradle-4.10-all\54ye4nru8k2rpf7xwj15he4fo\gradle-4.10" />
-      </map>
-    </option>
-    <option name="myGradleVersions">
-      <map>
-        <entry key="$PROJECT_DIR$" value="4.10" />
-      </map>
-    </option>
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="andycen-base" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="andycen-base" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="availableTasks">
-      <map>
-        <entry key="$PROJECT_DIR$">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'andycen-base'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'andycen-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'andycen-base'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'andycen-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'andycen-base'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'andycen-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="war" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'andycen-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'andycen-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'andycen-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$" value="6248321110254" />
-        <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="4200937632" />
-        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2696189834" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="327333497" />
-      </map>
-    </option>
-    <option name="projectBuildClasspath">
-      <map>
-        <entry key="$PROJECT_DIR$">
-          <value>
-            <ExternalProjectBuildClasspathPojo>
-              <option name="modulesBuildClasspath">
-                <map>
-                  <entry key="$PROJECT_DIR$">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.3.RELEASE/1d636167a0afc54a971fefdecf752c6dc9a6ca35/spring-boot-gradle-plugin-2.1.3.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.3.RELEASE/f41963116aaf7f8a2518da01aa6f475e5c0a02f6/spring-boot-loader-tools-2.1.3.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/d6c42859b24b62034b2a5e0db5ea12c688493d48/dependency-management-plugin-1.0.6.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/407c8f57c15605a13c76a869357181825a7a5db1/spring-core-5.1.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/a25b942b99fde2cc2913ab39ad34abc0df4f5eb9/commons-compress-1.18-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.5.RELEASE/6f3212c91ac78f8cc4bcaf600f624f92a6287ca6/spring-jcl-5.1.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.3.RELEASE/6e5fba2632bf299b4c28a1c272ef3fa4533e8f7f/spring-boot-gradle-plugin-2.1.3.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.3.RELEASE/78b1832575cecda34bbf919641b9b00705b07265/spring-boot-loader-tools-2.1.3.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/aacc4555108f3da913a58114b2aebc819f58cce4/spring-core-5.1.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.5.RELEASE/5cbd44d11a031c64c788edf1f99706b31c434469/spring-jcl-5.1.5.RELEASE.jar" />
-                          </list>
-                        </option>
-                        <option name="path" value="$PROJECT_DIR$" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="name" value="andycen-base" />
-              <option name="projectBuildClasspath">
-                <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/build-cache" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/build-cache-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/build-option" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/composite-builds" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/core-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/docs" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/ide-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/installation-beacon" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/internal-android-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/internal-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/jvm-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/language-scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/logging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/persistent-cache" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/platform-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/plugin-development" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/process-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/resources-gcs" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/resources-s3" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/resources-sftp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/test-kit" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/testing-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/testing-junit-platform" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/testing-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/testing-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/tooling-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/version-control" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/workers" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/ant-1.9.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/ant-launcher-1.9.11.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-api-metadata-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-base-services-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-base-services-groovy-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-build-cache-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-build-option-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-cli-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-core-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-core-api-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-docs-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-installation-beacon-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-jvm-services-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-kotlin-dsl-1.0-rc-3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-kotlin-dsl-provider-plugins-1.0-rc-3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-kotlin-dsl-tooling-builders-1.0-rc-3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-kotlin-dsl-tooling-models-1.0-rc-3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-launcher-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-logging-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-messaging-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-model-core-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-model-groovy-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-native-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-persistent-cache-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-process-services-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-resources-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-runtime-api-info-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-tooling-api-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/gradle-wrapper-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/groovy-all-2.4.15.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-announce-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-antlr-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-build-cache-http-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-build-comparison-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-build-init-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-code-quality-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-composite-builds-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-dependency-management-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-diagnostics-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-ear-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-ide-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-ide-native-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-ide-play-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-ivy-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-jacoco-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-javascript-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-language-groovy-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-language-java-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-language-jvm-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-language-native-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-language-scala-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-maven-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-osgi-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-platform-base-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-platform-jvm-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-platform-native-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-platform-play-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-plugin-development-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-plugin-use-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-plugins-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-publish-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-reporting-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-resources-gcs-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-resources-http-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-resources-s3-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-resources-sftp-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-scala-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-signing-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-test-kit-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-testing-base-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-testing-junit-platform-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-testing-jvm-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-testing-native-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-tooling-api-builders-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-tooling-native-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-version-control-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/gradle-workers-4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/lib/plugins/ivy-2.2.0.jar" />
-                </list>
-              </option>
-            </ExternalProjectBuildClasspathPojo>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/andycen/base/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config/dev/application-redis.yml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cb2c367d-99f0-40af-bd99-2d9406ec8074/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/andycen/base/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config/dev/application-mysql.yml" />
+        <option value="$PROJECT_DIR$/andycen-web/src/main/java/Application.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/andycen-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/andycen-web/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/andycen-core/src/main/java/com/andycen/base/core/dao/mapper/TestMapper.java" />
+        <option value="$PROJECT_DIR$/andycen-web/src/main/java/com/andycen/base/web/Application.java" />
+        <option value="$PROJECT_DIR$/andycen-web/src/main/java/com/andycen/base/web/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/andycen-core/src/main/java/com/andycen/base/core/dao/entity/TestEntity.java" />
+        <option value="$PROJECT_DIR$/andycen-core/src/main/java/com/andycen/base/core/meta/po/TestPo.java" />
+        <option value="$PROJECT_DIR$/andycen-web/src/main/resources/config/dev/application-mysql.yml" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="55" />
     <option name="y" value="149" />
     <option name="width" value="1757" />
     <option name="height" value="938" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="241" />
+    <option name="y" value="39" />
+    <option name="width" value="1891" />
+    <option name="height" value="1025" />
+>>>>>>> 62de13b... feat: 启动类、mapper配置
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -568,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -579,17 +274,25 @@
             <path>
               <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
               <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
               <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
               <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -597,34 +300,105 @@
             <path>
               <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
               <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="andycen-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="andycen-base" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="andycen-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562083733089" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562159251757" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/netease-codingstyle.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5724138" />
-    <property name="settings.editor.selected.configurable" value="upsource.project.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project-cenry\andycen-base\andycen-web\src\main\java\com.andycen.base.web\controller" />
+      <recent name="F:\project-cenry\andycen-base\andycen-web\src\main\java\com.andycen.base.web" />
+      <recent name="F:\project-cenry\andycen-base\src\main\resources\config\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project-cenry\andycen-base\andycen-web\src\main\resources\config" />
+      <recent name="F:\project-cenry\andycen-base\andycen-web\src\main\resources" />
+      <recent name="F:\project-cenry\andycen-base\andycen-web\src\main\java" />
+      <recent name="F:\project-cenry\andycen-base\andycen-web\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -638,22 +412,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="com.andycen.base.andycen-base.main" />
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="andycen-web.com.andycen.base.andycen-web.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.andycen.base.*" />
+          <option name="PATTERN" value="com.andycen.base.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.andycen.base.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.andycen.base.web.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="andycen-base.andycen-web.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
@@ -673,11 +461,16 @@
       <workItem from="1554776031541" duration="7800000" />
       <workItem from="1562078061355" duration="2071000" />
       <workItem from="1562083683816" duration="57000" />
+      <workItem from="1562122684851" duration="5562000" />
+      <workItem from="1562136489064" duration="597000" />
+      <workItem from="1562137145148" duration="1156000" />
+      <workItem from="1562139074745" duration="3441000" />
+      <workItem from="1562142526758" duration="7072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15733000" />
+    <option name="totallyTimeSpent" value="33561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -689,9 +482,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="241" y="0" width="1891" height="1064" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21375267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19716002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -700,43 +494,45 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35613462" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43655914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299435" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49946696" weight="0.3546638" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.329602" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.4989339" weight="0.21475054" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.3299435" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.34350282" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.32502708" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.21475054" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.329718" />
       <window_info anchor="bottom" id="Reviews" order="17" />
+      <window_info anchor="bottom" id="Database Console" order="18" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.2979744" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.26492536" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.1945629" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.18459858" />
+      <window_info anchor="right" id="Database" order="7" weight="0.1945629" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="News Feed" order="9" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.32995737" />
       <window_info anchor="right" id="Maven Projects" order="12" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
@@ -745,31 +541,8 @@
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.3.RELEASE/6df39e2fbf8757ce2bf084909224e7e78f315ec7/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/classes/com/andycen/base/Application.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/andycen/base/Application.class" />
     <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/dev/application-redis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.3.RELEASE/6df39e2fbf8757ce2bf084909224e7e78f315ec7/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.java">
@@ -779,41 +552,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c58b30f4-af2b-4c3b-a1b9-9f6d735c85fa/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c58b30f4-af2b-4c3b-a1b9-9f6d735c85fa/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb2c367d-99f0-40af-bd99-2d9406ec8074/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="das://3a20ac97-8c62-4b48-bbeb-37f3375c475e/schema/andycen/table/t_test" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3a20ac97-8c62-4b48-bbeb-37f3375c475e/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andycen-web/src/main/resources/config/test/application-mysql.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="63">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/dev/application-mysql.yml">
+    <entry file="file://$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/out/production/classes/com/andycen/base/controller/TestController.class" />
+    <entry file="file://$PROJECT_DIR$/andycen-web/src/main/resources/config/dev/application-redis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="42">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andycen/base/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/andycen-core/andycen-core.iml" />
+    <entry file="file://$PROJECT_DIR$/andycen-web/src/main/java/com.andycen.base.web/Application.java" />
+    <entry file="file://$PROJECT_DIR$/andycen-web/src/main/java/com.andycen.base.web/controller/TestController.java" />
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.10-all/54ye4nru8k2rpf7xwj15he4fo/gradle-4.10/src/core-api/org/gradle/api/artifacts/dsl/RepositoryHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="290">
+          <caret line="182" column="28" selection-start-line="182" selection-start-column="28" selection-end-line="182" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andycen-web/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andycen/base/Application.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/tk.mybatis/mapper-base/1.0.5/9fca5df4f0a6f670becdb3ffbec51b8b78c2d08/mapper-base-1.0.5-sources.jar!/tk/mybatis/mapper/common/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/tk.mybatis/mapper-base/1.0.5/9fca5df4f0a6f670becdb3ffbec51b8b78c2d08/mapper-base-1.0.5-sources.jar!/tk/mybatis/mapper/common/base/select/SelectByPrimaryKeyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andycen-web/src/main/java/com/andycen/base/web/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andycen-core/src/main/java/com/andycen/base/core/meta/po/TestPo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andycen-web/src/main/resources/config/dev/application-mysql.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andycen-web/src/main/java/com/andycen/base/web/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andycen-web/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/andycen-core/src/main/java/com/andycen/base/core/dao/mapper/TestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -826,7 +693,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Gradle : com.andycen.base : andycen-base-0.1.0.war</last-edited>
+          <last-edited>Gradle : com.andycen.base : andycen-web.war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -874,7 +741,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>main|com.andycen.base.andycen-base</last-edited>
+          <last-edited>main|andycen-core</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -888,6 +755,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5724138" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
