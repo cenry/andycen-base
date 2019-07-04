@@ -1,7 +1,7 @@
 package com.andycen.base.web.controller;
 
-import com.andycen.base.core.meta.po.TestPo;
-import com.andycen.base.core.dao.mapper.TestMapper;
+import com.andycen.base.web.meta.po.TestPo;
+import com.andycen.base.web.service.ITestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-    private final TestMapper testMapper;
+    private final ITestService testService;
 
     @Autowired
-    public TestController(TestMapper testMapper) {
-        this.testMapper = testMapper;
+    public TestController(ITestService testService) {
+        this.testService = testService;
     }
 
     @GetMapping(value = "/test")
@@ -26,7 +26,7 @@ public class TestController {
 
     @GetMapping(value = "/testSelect")
     public Long testSelect() {
-        TestPo testPo = testMapper.selectByPrimaryKey(1L);
+        TestPo testPo = testService.testSelect();
         return testPo.getId();
     }
 

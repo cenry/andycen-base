@@ -1,6 +1,10 @@
 spring:
   datasource:
+<<<<<<< HEAD
     url: jdbc:mysql://localhost:3306/andycen
+=======
+    url: jdbc:mysql://localhost:3306/andycen?useSSL=true
+>>>>>>> 76ce40a50405fa535b1905579c732d084304c855
     username: root
     password: 123456
     tomcat:
