@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="2d1e9b73-48fa-448e-9464-24fecdc15efd" name="Default Changelist" comment="">
 <<<<<<< HEAD
@@ -527,11 +528,28 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="666" />
+    <option name="y" value="197" />
+    <option name="width" value="1891" />
+    <option name="height" value="1025" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="andycen-web_main" />
+>>>>>>> 404c96a... 11
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.andycen.base.web.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="andycen-base.andycen-web.main" />
       <extension name="coverage">
@@ -944,5 +962,7 @@
         </settings>
       </state>
     </states>
+=======
+>>>>>>> 404c96a... 11
   </component>
 </project>
