@@ -2,6 +2,7 @@ package com.andycen.base.web.controller;
 
 import com.andycen.base.web.meta.po.TestPo;
 import com.andycen.base.web.service.ITestService;
+import com.andycen.utils.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +22,7 @@ public class TestController {
 
     @GetMapping(value = "/test")
     public String test() {
+        Test test = new Test();
         return "ok";
     }
 
