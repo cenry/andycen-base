@@ -67,6 +67,9 @@ project("andycen-web") {
     apply plugin: "war"
     war {
         archiveName = "andycen-web.war"
+        manifest {
+            attributes 'Main-Class': 'com.andycen.base.web.Application'
+        }
     }
     dependencies {
         compile project(":andycen-core")
