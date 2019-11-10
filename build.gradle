@@ -57,6 +57,7 @@ subprojects {
 }
 
 project("andycen-core") {
+    bootRepackage.enabled = false
     jar {
         archiveName = "andycen-core.jar"
     }
@@ -64,12 +65,13 @@ project("andycen-core") {
 
 project("andycen-web") {
     apply plugin: "org.springframework.boot"
-    apply plugin: "war"
-    war {
-        archiveName = "andycen-web.war"
+    jar {
+        archiveName = "andycen-web.jar"
     }
     dependencies {
         compile project(":andycen-core")
-        providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+    }
+    bootRepackage {
+        mainClass = 'com.andycen.base.web.Application'
     }
 }
