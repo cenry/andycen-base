@@ -48,8 +48,7 @@ subprojects {
     sourceSets {
         main {
             resources {
-                srcDirs = ["src/main/resources", "src/main/resources/config/${prof}"]
-                excludes = ["config"]
+                srcDirs = ["src/main/resources/config/${prof}"]
             }
         }
     }
