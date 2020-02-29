@@ -57,9 +57,9 @@ subprojects {
 
 project("andycen-core") {
     bootRepackage.enabled = false
-    jar {
-        archiveName = "andycen-core.jar"
-    }
+//    jar {
+//        archiveName = "andycen-core.jar"
+//    }
 }
 
 project("andycen-web") {
